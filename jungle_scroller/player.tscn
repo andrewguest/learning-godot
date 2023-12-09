@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhffbbp1xxt2o"]
+
+[ext_resource type="Texture2D" uid="uid://b1a50mvtytvmo" path="res://Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="1_mlaem"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xn6ei"]
+atlas = ExtResource("1_mlaem")
+region = Rect2(21, 16, 35, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1uwy7"]
+size = Vector2(1.57895, 50.7626)
+
+[node name="Player" type="RigidBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(334, 354)
+texture = SubResource("AtlasTexture_xn6ei")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(334, 354)
+rotation = -3.14159
+scale = Vector2(22.8, 0.945578)
+shape = SubResource("RectangleShape2D_1uwy7")

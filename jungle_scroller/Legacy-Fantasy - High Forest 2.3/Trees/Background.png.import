@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture2D"
+uid="uid://dvvt17hs8b5ux"
+path="res://.godot/imported/Background.png-f29b14c5025f661e364886012c3c129f.res"
+group_file="res://Legacy-Fantasy - High Forest 2.3/Trees/trees_imported/trees.png"
+valid=true
+[deps]
+
+
+source_file="res://Legacy-Fantasy - High Forest 2.3/Trees/Background.png"
+dest_files=["res://.godot/imported/Background.png-f29b14c5025f661e364886012c3c129f.res"]
+
+[params]
+
+atlas_file="res://Legacy-Fantasy - High Forest 2.3/Trees/trees_imported/trees.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true
