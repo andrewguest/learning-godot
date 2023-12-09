@@ -1,5 +1,9 @@
 extends Sprite2D
 
+# Move a Sprite2D node from it's starting location to the right end of the screen.
+# Once it reaches the right side of the screen and is a full 1 width past the right edge of the viewport,
+#	then the Sprite2D node is reset to it's starting position and the process starts over.
+
 const SPEED = 5
 
 func _physics_process(delta):
