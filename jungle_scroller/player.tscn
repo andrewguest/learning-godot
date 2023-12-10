@@ -7,16 +7,17 @@ atlas = ExtResource("1_mlaem")
 region = Rect2(21, 16, 35, 48)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1uwy7"]
-size = Vector2(1.57895, 50.7626)
+size = Vector2(6.14035, 203.05)
 
-[node name="Player" type="RigidBody2D"]
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(378, 274)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(334, 354)
+scale = Vector2(4, 4)
 texture = SubResource("AtlasTexture_xn6ei")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(334, 354)
+position = Vector2(3.05176e-05, 0)
 rotation = -3.14159
 scale = Vector2(22.8, 0.945578)
 shape = SubResource("RectangleShape2D_1uwy7")
