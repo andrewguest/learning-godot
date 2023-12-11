@@ -13,3 +13,5 @@ stretch_mode = 1
 
 [node name="Player" parent="." instance=ExtResource("3_45i0v")]
 position = Vector2(155, 137)
+
+[editable path="Player"]
