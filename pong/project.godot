@@ -10,11 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Speedy Saucer"
-run/main_scene="res://level_1.tscn"
+config/name="Pong"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="Speedy Saucer"
+project/assembly_name="Pong"

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqc2i2kfo0bp0"]
+
+[sub_resource type="Gradient" id="Gradient_cjk2d"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_gpio5"]
+gradient = SubResource("Gradient_cjk2d")
+fill_to = Vector2(0.00917431, 0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6f4a4"]
+size = Vector2(25.6461, 78.2663)
+
+[node name="Player" type="RigidBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(-0.862227, -4.51824)
+texture = SubResource("GradientTexture2D_gpio5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(2.17307, 3.70608)
+shape = SubResource("RectangleShape2D_6f4a4")
